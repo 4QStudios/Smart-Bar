@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		3BDD75491BB9ECE200CA9E8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD75481BB9ECE200CA9E8F /* AppDelegate.swift */; };
-		3BDD754B1BB9ECE200CA9E8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD754A1BB9ECE200CA9E8F /* ViewController.swift */; };
 		3BDD754E1BB9ECE200CA9E8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD754C1BB9ECE200CA9E8F /* Main.storyboard */; };
 		3BDD75501BB9ECE200CA9E8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD754F1BB9ECE200CA9E8F /* Assets.xcassets */; };
 		3BDD75531BB9ECE200CA9E8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD75511BB9ECE200CA9E8F /* LaunchScreen.storyboard */; };
 		3BDD755E1BB9ECE200CA9E8F /* Smart_BarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD755D1BB9ECE200CA9E8F /* Smart_BarTests.swift */; };
 		3BDD75691BB9ECE200CA9E8F /* Smart_BarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD75681BB9ECE200CA9E8F /* Smart_BarUITests.swift */; };
+		3BDD757A1BB9ED8000CA9E8F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD75791BB9ED8000CA9E8F /* Podfile */; settings = {ASSET_TAGS = (); }; };
+		3BE17CB51BB9F079008012F4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE17CB41BB9F079008012F4 /* MainViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		EFE5AF7993377779CD45B24F /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B65C93CE79ECDACF21DC5E /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20B05B3F50423D5ECA8D037C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Smart Bar/Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		33B65C93CE79ECDACF21DC5E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BDD75451BB9ECE200CA9E8F /* Smart Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BDD75481BB9ECE200CA9E8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3BDD754A1BB9ECE200CA9E8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3BDD754D1BB9ECE200CA9E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BDD754F1BB9ECE200CA9E8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BDD75521BB9ECE200CA9E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		3BDD75641BB9ECE200CA9E8F /* Smart BarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart BarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BDD75681BB9ECE200CA9E8F /* Smart_BarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_BarUITests.swift; sourceTree = "<group>"; };
 		3BDD756A1BB9ECE200CA9E8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BDD75791BB9ED8000CA9E8F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		3BE17CB41BB9F079008012F4 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		92BE2D3969E49EB9767C51AC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Smart Bar/Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE5AF7993377779CD45B24F /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EBE97BF161517AD5D03779C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33B65C93CE79ECDACF21DC5E /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3BDD753C1BB9ECE200CA9E8F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +96,8 @@
 				3BDD755C1BB9ECE200CA9E8F /* Smart BarTests */,
 				3BDD75671BB9ECE200CA9E8F /* Smart BarUITests */,
 				3BDD75461BB9ECE200CA9E8F /* Products */,
+				69908C878BF35EABB20BCEE7 /* Pods */,
+				0EBE97BF161517AD5D03779C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +114,9 @@
 		3BDD75471BB9ECE200CA9E8F /* Smart Bar */ = {
 			isa = PBXGroup;
 			children = (
-				3BDD75481BB9ECE200CA9E8F /* AppDelegate.swift */,
-				3BDD754A1BB9ECE200CA9E8F /* ViewController.swift */,
-				3BDD754C1BB9ECE200CA9E8F /* Main.storyboard */,
-				3BDD754F1BB9ECE200CA9E8F /* Assets.xcassets */,
-				3BDD75511BB9ECE200CA9E8F /* LaunchScreen.storyboard */,
-				3BDD75541BB9ECE200CA9E8F /* Info.plist */,
+				3BDD75771BB9ED1D00CA9E8F /* Networking */,
+				3BDD75761BB9ED0F00CA9E8F /* GUI */,
+				3BDD75781BB9ED6700CA9E8F /* Supporting Files */,
 			);
 			path = "Smart Bar";
 			sourceTree = "<group>";
@@ -125,6 +139,43 @@
 			path = "Smart BarUITests";
 			sourceTree = "<group>";
 		};
+		3BDD75761BB9ED0F00CA9E8F /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				3BDD754F1BB9ECE200CA9E8F /* Assets.xcassets */,
+				3BDD754C1BB9ECE200CA9E8F /* Main.storyboard */,
+				3BDD75511BB9ECE200CA9E8F /* LaunchScreen.storyboard */,
+				3BE17CB41BB9F079008012F4 /* MainViewController.swift */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		3BDD75771BB9ED1D00CA9E8F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		3BDD75781BB9ED6700CA9E8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BDD75541BB9ECE200CA9E8F /* Info.plist */,
+				3BDD75481BB9ECE200CA9E8F /* AppDelegate.swift */,
+				3BDD75791BB9ED8000CA9E8F /* Podfile */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69908C878BF35EABB20BCEE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20B05B3F50423D5ECA8D037C /* Pods.debug.xcconfig */,
+				92BE2D3969E49EB9767C51AC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BDD756D1BB9ECE200CA9E8F /* Build configuration list for PBXNativeTarget "Smart Bar" */;
 			buildPhases = (
+				222CC8B50DF1946671BA96E4 /* Check Pods Manifest.lock */,
 				3BDD75411BB9ECE200CA9E8F /* Sources */,
 				3BDD75421BB9ECE200CA9E8F /* Frameworks */,
 				3BDD75431BB9ECE200CA9E8F /* Resources */,
+				619E2A9D49C4595296A6FDD1 /* Embed Pods Frameworks */,
+				13E2D30576950EC046045F6E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,6 +284,7 @@
 			files = (
 				3BDD75531BB9ECE200CA9E8F /* LaunchScreen.storyboard in Resources */,
 				3BDD75501BB9ECE200CA9E8F /* Assets.xcassets in Resources */,
+				3BDD757A1BB9ED8000CA9E8F /* Podfile in Resources */,
 				3BDD754E1BB9ECE200CA9E8F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,13 +305,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13E2D30576950EC046045F6E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Smart Bar/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		222CC8B50DF1946671BA96E4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		619E2A9D49C4595296A6FDD1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Smart Bar/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3BDD75411BB9ECE200CA9E8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BDD754B1BB9ECE200CA9E8F /* ViewController.swift in Sources */,
 				3BDD75491BB9ECE200CA9E8F /* AppDelegate.swift in Sources */,
+				3BE17CB51BB9F079008012F4 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,9 +499,11 @@
 		};
 		3BDD756E1BB9ECE200CA9E8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B05B3F50423D5ECA8D037C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Smart Bar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "py.com.4qstudios.Smart-Bar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -407,9 +512,11 @@
 		};
 		3BDD756F1BB9ECE200CA9E8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92BE2D3969E49EB9767C51AC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Smart Bar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "py.com.4qstudios.Smart-Bar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,6 +590,7 @@
 				3BDD756F1BB9ECE200CA9E8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BDD75701BB9ECE200CA9E8F /* Build configuration list for PBXNativeTarget "Smart BarTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +599,7 @@
 				3BDD75721BB9ECE200CA9E8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BDD75731BB9ECE200CA9E8F /* Build configuration list for PBXNativeTarget "Smart BarUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +608,7 @@
 				3BDD75751BB9ECE200CA9E8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
