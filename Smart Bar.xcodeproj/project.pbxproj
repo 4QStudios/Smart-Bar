@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BDD75491BB9ECE200CA9E8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD75481BB9ECE200CA9E8F /* AppDelegate.swift */; };
+		3BDD754B1BB9ECE200CA9E8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD754A1BB9ECE200CA9E8F /* ViewController.swift */; };
+		3BDD754E1BB9ECE200CA9E8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD754C1BB9ECE200CA9E8F /* Main.storyboard */; };
+		3BDD75501BB9ECE200CA9E8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD754F1BB9ECE200CA9E8F /* Assets.xcassets */; };
+		3BDD75531BB9ECE200CA9E8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD75511BB9ECE200CA9E8F /* LaunchScreen.storyboard */; };
+		3BDD755E1BB9ECE200CA9E8F /* Smart_BarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD755D1BB9ECE200CA9E8F /* Smart_BarTests.swift */; };
+		3BDD75691BB9ECE200CA9E8F /* Smart_BarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD75681BB9ECE200CA9E8F /* Smart_BarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BDD755A1BB9ECE200CA9E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BDD753D1BB9ECE200CA9E8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BDD75441BB9ECE200CA9E8F;
+			remoteInfo = "Smart Bar";
+		};
+		3BDD75651BB9ECE200CA9E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BDD753D1BB9ECE200CA9E8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BDD75441BB9ECE200CA9E8F;
+			remoteInfo = "Smart Bar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BDD75451BB9ECE200CA9E8F /* Smart Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BDD75481BB9ECE200CA9E8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BDD754A1BB9ECE200CA9E8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BDD754D1BB9ECE200CA9E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BDD754F1BB9ECE200CA9E8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BDD75521BB9ECE200CA9E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BDD75541BB9ECE200CA9E8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BDD75591BB9ECE200CA9E8F /* Smart BarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart BarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BDD755D1BB9ECE200CA9E8F /* Smart_BarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_BarTests.swift; sourceTree = "<group>"; };
+		3BDD755F1BB9ECE200CA9E8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BDD75641BB9ECE200CA9E8F /* Smart BarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart BarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BDD75681BB9ECE200CA9E8F /* Smart_BarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_BarUITests.swift; sourceTree = "<group>"; };
+		3BDD756A1BB9ECE200CA9E8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BDD75421BB9ECE200CA9E8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BDD75561BB9ECE200CA9E8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BDD75611BB9ECE200CA9E8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BDD753C1BB9ECE200CA9E8F = {
+			isa = PBXGroup;
+			children = (
+				3BDD75471BB9ECE200CA9E8F /* Smart Bar */,
+				3BDD755C1BB9ECE200CA9E8F /* Smart BarTests */,
+				3BDD75671BB9ECE200CA9E8F /* Smart BarUITests */,
+				3BDD75461BB9ECE200CA9E8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BDD75461BB9ECE200CA9E8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BDD75451BB9ECE200CA9E8F /* Smart Bar.app */,
+				3BDD75591BB9ECE200CA9E8F /* Smart BarTests.xctest */,
+				3BDD75641BB9ECE200CA9E8F /* Smart BarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BDD75471BB9ECE200CA9E8F /* Smart Bar */ = {
+			isa = PBXGroup;
+			children = (
+				3BDD75481BB9ECE200CA9E8F /* AppDelegate.swift */,
+				3BDD754A1BB9ECE200CA9E8F /* ViewController.swift */,
+				3BDD754C1BB9ECE200CA9E8F /* Main.storyboard */,
+				3BDD754F1BB9ECE200CA9E8F /* Assets.xcassets */,
+				3BDD75511BB9ECE200CA9E8F /* LaunchScreen.storyboard */,
+				3BDD75541BB9ECE200CA9E8F /* Info.plist */,
+			);
+			path = "Smart Bar";
+			sourceTree = "<group>";
+		};
+		3BDD755C1BB9ECE200CA9E8F /* Smart BarTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BDD755D1BB9ECE200CA9E8F /* Smart_BarTests.swift */,
+				3BDD755F1BB9ECE200CA9E8F /* Info.plist */,
+			);
+			path = "Smart BarTests";
+			sourceTree = "<group>";
+		};
+		3BDD75671BB9ECE200CA9E8F /* Smart BarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BDD75681BB9ECE200CA9E8F /* Smart_BarUITests.swift */,
+				3BDD756A1BB9ECE200CA9E8F /* Info.plist */,
+			);
+			path = "Smart BarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BDD75441BB9ECE200CA9E8F /* Smart Bar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BDD756D1BB9ECE200CA9E8F /* Build configuration list for PBXNativeTarget "Smart Bar" */;
+			buildPhases = (
+				3BDD75411BB9ECE200CA9E8F /* Sources */,
+				3BDD75421BB9ECE200CA9E8F /* Frameworks */,
+				3BDD75431BB9ECE200CA9E8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Bar";
+			productName = "Smart Bar";
+			productReference = 3BDD75451BB9ECE200CA9E8F /* Smart Bar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BDD75581BB9ECE200CA9E8F /* Smart BarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BDD75701BB9ECE200CA9E8F /* Build configuration list for PBXNativeTarget "Smart BarTests" */;
+			buildPhases = (
+				3BDD75551BB9ECE200CA9E8F /* Sources */,
+				3BDD75561BB9ECE200CA9E8F /* Frameworks */,
+				3BDD75571BB9ECE200CA9E8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BDD755B1BB9ECE200CA9E8F /* PBXTargetDependency */,
+			);
+			name = "Smart BarTests";
+			productName = "Smart BarTests";
+			productReference = 3BDD75591BB9ECE200CA9E8F /* Smart BarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BDD75631BB9ECE200CA9E8F /* Smart BarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BDD75731BB9ECE200CA9E8F /* Build configuration list for PBXNativeTarget "Smart BarUITests" */;
+			buildPhases = (
+				3BDD75601BB9ECE200CA9E8F /* Sources */,
+				3BDD75611BB9ECE200CA9E8F /* Frameworks */,
+				3BDD75621BB9ECE200CA9E8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BDD75661BB9ECE200CA9E8F /* PBXTargetDependency */,
+			);
+			name = "Smart BarUITests";
+			productName = "Smart BarUITests";
+			productReference = 3BDD75641BB9ECE200CA9E8F /* Smart BarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BDD753D1BB9ECE200CA9E8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Javier Rivarola";
+				TargetAttributes = {
+					3BDD75441BB9ECE200CA9E8F = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					3BDD75581BB9ECE200CA9E8F = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 3BDD75441BB9ECE200CA9E8F;
+					};
+					3BDD75631BB9ECE200CA9E8F = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 3BDD75441BB9ECE200CA9E8F;
+					};
+				};
+			};
+			buildConfigurationList = 3BDD75401BB9ECE200CA9E8F /* Build configuration list for PBXProject "Smart Bar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BDD753C1BB9ECE200CA9E8F;
+			productRefGroup = 3BDD75461BB9ECE200CA9E8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BDD75441BB9ECE200CA9E8F /* Smart Bar */,
+				3BDD75581BB9ECE200CA9E8F /* Smart BarTests */,
+				3BDD75631BB9ECE200CA9E8F /* Smart BarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BDD75431BB9ECE200CA9E8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BDD75531BB9ECE200CA9E8F /* LaunchScreen.storyboard in Resources */,
+				3BDD75501BB9ECE200CA9E8F /* Assets.xcassets in Resources */,
+				3BDD754E1BB9ECE200CA9E8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BDD75571BB9ECE200CA9E8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BDD75621BB9ECE200CA9E8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BDD75411BB9ECE200CA9E8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BDD754B1BB9ECE200CA9E8F /* ViewController.swift in Sources */,
+				3BDD75491BB9ECE200CA9E8F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BDD75551BB9ECE200CA9E8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BDD755E1BB9ECE200CA9E8F /* Smart_BarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BDD75601BB9ECE200CA9E8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BDD75691BB9ECE200CA9E8F /* Smart_BarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BDD755B1BB9ECE200CA9E8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BDD75441BB9ECE200CA9E8F /* Smart Bar */;
+			targetProxy = 3BDD755A1BB9ECE200CA9E8F /* PBXContainerItemProxy */;
+		};
+		3BDD75661BB9ECE200CA9E8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BDD75441BB9ECE200CA9E8F /* Smart Bar */;
+			targetProxy = 3BDD75651BB9ECE200CA9E8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BDD754C1BB9ECE200CA9E8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BDD754D1BB9ECE200CA9E8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BDD75511BB9ECE200CA9E8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BDD75521BB9ECE200CA9E8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BDD756B1BB9ECE200CA9E8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BDD756C1BB9ECE200CA9E8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BDD756E1BB9ECE200CA9E8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Smart Bar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "py.com.4qstudios.Smart-Bar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BDD756F1BB9ECE200CA9E8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Smart Bar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "py.com.4qstudios.Smart-Bar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3BDD75711BB9ECE200CA9E8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Smart BarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "py.com.4qstudios.Smart-BarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Bar.app/Smart Bar";
+			};
+			name = Debug;
+		};
+		3BDD75721BB9ECE200CA9E8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Smart BarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "py.com.4qstudios.Smart-BarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Bar.app/Smart Bar";
+			};
+			name = Release;
+		};
+		3BDD75741BB9ECE200CA9E8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Smart BarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "py.com.4qstudios.Smart-BarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Smart Bar";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3BDD75751BB9ECE200CA9E8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Smart BarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "py.com.4qstudios.Smart-BarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Smart Bar";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BDD75401BB9ECE200CA9E8F /* Build configuration list for PBXProject "Smart Bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BDD756B1BB9ECE200CA9E8F /* Debug */,
+				3BDD756C1BB9ECE200CA9E8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BDD756D1BB9ECE200CA9E8F /* Build configuration list for PBXNativeTarget "Smart Bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BDD756E1BB9ECE200CA9E8F /* Debug */,
+				3BDD756F1BB9ECE200CA9E8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BDD75701BB9ECE200CA9E8F /* Build configuration list for PBXNativeTarget "Smart BarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BDD75711BB9ECE200CA9E8F /* Debug */,
+				3BDD75721BB9ECE200CA9E8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BDD75731BB9ECE200CA9E8F /* Build configuration list for PBXNativeTarget "Smart BarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BDD75741BB9ECE200CA9E8F /* Debug */,
+				3BDD75751BB9ECE200CA9E8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BDD753D1BB9ECE200CA9E8F /* Project object */;
+}
